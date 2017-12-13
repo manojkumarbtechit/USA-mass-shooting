@@ -15,8 +15,6 @@ data$Latitude[is.na(data$Latitude)] <- 0
 data$Longitude[is.na(data$Longitude)] <- 0
 
 
-#install.packages("ggmap")
-#install.packages("zipcode")
 library("ggmap")
 library("zipcode")
 data("zipcode")
